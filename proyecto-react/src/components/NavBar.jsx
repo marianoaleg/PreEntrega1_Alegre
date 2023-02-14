@@ -30,12 +30,9 @@ const NavBar = ()=>{
                         </div>
                         </div>
                         <CartWidget />
-                    </nav>
-                    
-                </div>
-                
-            </div>
-            
+                    </nav>                   
+                </div>               
+            </div>           
         </div>
     )
 };

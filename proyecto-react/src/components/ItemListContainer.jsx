@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {useParams} from "react-router-dom";
-import catalogo from "./json/productos.json";
 import ItemList from "./ItemList";
+import catalogo from "./json/productos.json";
 const ItemListContainer = ()=>{
     const [items, setItems] = useState([]);
     const {id} = useParams();
@@ -23,6 +23,6 @@ const ItemListContainer = ()=>{
             </div>
     
     )
-};
+}
 
 export default ItemListContainer;

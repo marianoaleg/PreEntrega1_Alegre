@@ -2,51 +2,51 @@
 "tipoMotor": "4 tiempos, 6 cil en V, 24 válvulas VCT, DOHC",
 "cilindrada":4169,"potencia":300,"encendido":"Eléctrico",
 "imagen": "https://cdn-hcfdb.nitrocdn.com/GDYcJfBObbayxCllRBbtpfHdzaQAHsrD/assets/images/optimized/rev-bb7d976/wp-content/uploads/2020/07/19_F300DETX_S_Pob-1500x1500-1.jpg",
-"precio": 34833},
+"precio": 34.833},
 
 {"id": 2, "nombre": "Yamaha","modelo":"F300G", "categoria":"4T","peso":283, 
 "tipoMotor": "4 tiempos, 6 cil en V, 24 válvulas VCT, DOHC",
 "cilindrada":4169,"potencia":300,"encendido":"Eléctrico",
-"imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/F300GET2X_pob-1500x1500-1.jpg" , "precio":35544
+"imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/F300GET2X_pob-1500x1500-1.jpg" , "precio":35.544
 },
 { "id": 3, "nombre": "Yamaha","modelo":"F250", "categoria":"4T","peso":268, 
 "tipoMotor": "4 tiempos, 6 cil en V, 24 válvulas VCT, DOHC",
 "cilindrada":4169,"potencia":250,"encendido":"Eléctrico",
-"imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/F250P-1500x1500-1.jpg","precio":30331
+"imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/F250P-1500x1500-1.jpg","precio":30.331
 },
 {"id": 4, "nombre": "Yamaha","modelo":"200HP", "categoria":"2T","peso":186, 
 "tipoMotor": "2 Tiempos",
 "cilindrada":2596,"potencia":200,"encendido":"Eléctrico",
-"imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/18_200AETX_B_Pob.jpg","precio":19452
+"imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/18_200AETX_B_Pob.jpg","precio":19.452
 },
 {"id": 5, "nombre": "Yamaha","modelo":"F200", "categoria":"4T","peso":283, 
 "tipoMotor": "6 cilindros en V a 60°, 4 tiempos refrigerado por agua, DOHC 24 válvulas",
-"cilindrada":3352,"potencia":200,"encendido":"Eléctrico", "precio":23992,
+"cilindrada":3352,"potencia":200,"encendido":"Eléctrico", "precio":23.992,
 "imagen":"https://cdn-hcfdb.nitrocdn.com/GDYcJfBObbayxCllRBbtpfHdzaQAHsrD/assets/images/optimized/rev-bb7d976/wp-content/uploads/2020/07/18_F200BETX_S_Pob.jpg"
 },
 {"id": 6, "nombre": "Yamaha","modelo":"150HP", "categoria":"2T","peso":186, 
 "tipoMotor": "2 Tiempos",
-"cilindrada":2596,"potencia":150,"encendido":"Eléctrico", "precio":16500,
+"cilindrada":2596,"potencia":150,"encendido":"Eléctrico", "precio":16.500,
 "imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/18_150AETX_B_Pob.jpg"
 },
 {"id": 7, "nombre": "Yamaha","modelo":"F150", "categoria":"4T","peso":223, 
 "tipoMotor": "4 cilindros, 16 válvulas DOHC",
-"cilindrada":2670,"potencia":150,"encendido":"Eléctrico", "precio":20108,
+"cilindrada":2670,"potencia":150,"encendido":"Eléctrico", "precio":20.108,
 "imagen":"https://imemsa.com.mx/wp-content/uploads/2020/07/18_F150FETX_S_Pob.jpg"
 },
 {"id": 8, "nombre": "Yamaha","modelo":"F115", "categoria":"4T","peso":185, 
 "tipoMotor": "4 tiempos DOHC L4 16válvulas",
-"cilindrada":1832,"potencia":115,"encendido":"Eléctrico", "precio":15338,
+"cilindrada":1832,"potencia":115,"encendido":"Eléctrico", "precio":15.338,
 "imagen":"https://cdn-hcfdb.nitrocdn.com/GDYcJfBObbayxCllRBbtpfHdzaQAHsrD/assets/images/optimized/rev-bb7d976/wp-content/uploads/2020/07/18_F115BETX_W_Pob.jpg"
 },
 {"id": 9, "nombre": "Yamaha","modelo":"F100", "categoria":"4T","peso":171, 
 "tipoMotor": "4 tiempos DOHC L4 16válvulas",
-"cilindrada":1832,"potencia":100,"encendido":"Eléctrico", "precio":15000,
+"cilindrada":1832,"potencia":100,"encendido":"Eléctrico", "precio":15.000,
 "imagen":"https://cdn-hcfdb.nitrocdn.com/GDYcJfBObbayxCllRBbtpfHdzaQAHsrD/assets/images/optimized/rev-bb7d976/wp-content/uploads/2020/07/F100GEHTX_999_Worldwide_20_F100GEHTX_W_Pob-copia-PH-scaled-e1625181805527.jpg"
 },
 {"id": 10, "nombre": "Yamaha","modelo":"85HP", "categoria":"2T","peso":150, 
 "tipoMotor": "2 tiempos",
-"cilindrada":1140 ,"potencia":85,"encendido":"Electrico", "precio":10657,
+"cilindrada":1140 ,"potencia":85,"encendido":"Electrico", "precio":10.657,
 "imagen":"https://cdn-hcfdb.nitrocdn.com/GDYcJfBObbayxCllRBbtpfHdzaQAHsrD/assets/images/optimized/rev-bb7d976/wp-content/uploads/2020/07/85AETL.jpg"
 },
 {"id": 11, "nombre": "Yamaha","modelo":"E75", "categoria":"2T","peso":121, 
@@ -56,7 +56,7 @@
 },
 {"id": 12, "nombre": "Yamaha","modelo":"F75", "categoria":"4T","peso":193, 
 "tipoMotor": "4 Tiempos, 4 Cilindros, 16 Válvulas SOHC",
-"cilindrada":1832 ,"potencia":75,"encendido":"Electrico", "precio":13067,
+"cilindrada":1832 ,"potencia":75,"encendido":"Electrico", "precio":13.067,
 "imagen":"https://cdn-hcfdb.nitrocdn.com/GDYcJfBObbayxCllRBbtpfHdzaQAHsrD/assets/images/optimized/rev-bb7d976/wp-content/uploads/2022/02/2020_F75FEHTX_999_Worldwide_20_F75FEHTX_W_Pob-scaled.jpg"
 }
 ]

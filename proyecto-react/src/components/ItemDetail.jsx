@@ -7,10 +7,15 @@ const ItemDetail = ({item}) => {
                 </div>
                 <div className="col d-flex align-items-center">
                     <div>
-                        <h1>{item.modelo}</h1>
-                        <h5>{item.precio} kcal</h5>
-                        <p>{item.tipoMotor}</p>
-                        <p><b>${item.peso}</b></p>
+                        <h2>Marca: {item.nombre} </h2>
+                        <h2>Modelo: {item.modelo}</h2>
+                        <h5>Precio: {item.precio} USD</h5>
+                        <p>Tipo de motor: {item.tipoMotor}</p>
+                        <p>Cilindrada: {item.cilindrada} </p>
+                        <p>Potencia: {item.potencia} HP</p>
+                        <p>Encendido: {item.encendido} </p>
+                        <p>Peso: {item.peso}Kg</p>
+                        
                         
                     </div>
                 </div>

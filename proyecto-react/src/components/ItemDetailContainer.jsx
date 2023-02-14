@@ -16,6 +16,7 @@ const ItemDetailContainer = ()=>{
             setItem(respuesta);
         })
     }, [id]);
+    
     return(
         <div>
              <ItemDetail item={item} />

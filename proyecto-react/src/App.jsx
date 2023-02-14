@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
 import ItemListContainer from './components/ItemListContainer';
@@ -15,8 +15,8 @@ function App() {
             <Route path={"/category/:id"} element={<ItemListContainer />} />
             <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
           </Routes>
-        <Carousel />     
-      </div>
+         
+      </div>   
     </BrowserRouter>
   );
 }
