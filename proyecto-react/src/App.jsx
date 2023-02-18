@@ -3,21 +3,23 @@ import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
-
+import Footer from "./components/Footer";
 function App() {
   return (
-    <BrowserRouter>
-      <div>
-        <NavBar />
-          <Routes>
-            <Route path={"/"} element={<Carousel />} />
-            <Route path={"/catalogo"} element={<ItemListContainer />} />
-            <Route path={"/category/:id"} element={<ItemListContainer />} />
-            <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
-          </Routes>
-         
-      </div>   
-    </BrowserRouter>
+    
+
+        <BrowserRouter>
+          <div>
+            <NavBar />
+              <Routes>
+                <Route path={"/"} element={<Carousel />} />
+                <Route path={"/catalogo"} element={<ItemListContainer />} />
+                <Route path={"/category/:id"} element={<ItemListContainer />} />
+                <Route path={"/item/:id"} element={<ItemDetailContainer/>} />
+              </Routes>
+            <Footer />
+          </div> 
+        </BrowserRouter>   
   );
 }
 
