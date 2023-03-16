@@ -33,23 +33,22 @@ const ItemCount = ({stock, onAdd}) => {
     }
  
     return (
-        <div className="container">
+        <div className="container ">
             <div className="row my-1">
                 <div className="col">
                     <div className="btn-group">
-                        <button className="btn btn-warning" onClick={decrementarStock}>-</button>
-                        <button className="btn btn-warning">{items}</button>
-                        <button className="btn btn-warning" onClick={incrementarStock}>+</button>
+                        <button className="btn btn-dark" onClick={decrementarStock}>-</button>
+                        <button className="btn btn-dark">{items}</button>
+                        <button className="btn btn-dark" onClick={incrementarStock}>+</button>
                     </div>
                 </div>
             </div>
             <div className="row my-1">
                 <div className="col">
-<<<<<<< Updated upstream
-                    <button className="btn btn-warning" onClick={onAdd}>Agregar Al Carrito</button>
-=======
-                    {itemAdded ? <Link to={"/cart"} className="btn btn-light"> Finalizar Compra</Link> : <button className="btn btn-light" onClick={addToCart}>Agregar Al Carrito</button>}
->>>>>>> Stashed changes
+                    
+
+                    {itemAdded ? <Link to={"/cart"} className="btn btn-dark"> Finalizar Compra</Link> : <button className="btn btn-dark" onClick={addToCart}>Agregar Al Carrito</button>}
+
                 </div>
             </div>
         </div>

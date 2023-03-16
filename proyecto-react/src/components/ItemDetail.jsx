@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { CartContext } from "./context/CartContext";
 import ItemCount from "./ItemCount";
-
+import '../index.css';
 const ItemDetail = ({item}) => {
     const {addItem} = useContext(CartContext);
 
@@ -9,16 +9,13 @@ const ItemDetail = ({item}) => {
         addItem(item, quantity);
         }
     return (
-        <div className="container">
+        <div className="container itemDetail">
             <div className="row my-5">
                 <div className="col d-flex align-items-center justify-content-end">
                     <img src={item.imagen} alt={item.modelo} width={500} height={500} />
                 </div>
-<<<<<<< Updated upstream
+
                 <div className="col d-flex align-items-center">
-=======
-                <div className="col d-flex align-items-center text-center text-light">
->>>>>>> Stashed changes
                     <div>
                         <h2>Marca: {item.nombre} </h2>
                         <h2>Modelo: {item.modelo}</h2>

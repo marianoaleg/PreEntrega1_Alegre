@@ -3,7 +3,7 @@ import { Navigate } from "react-router-dom";
 import { CartContext } from "./context/CartContext";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 import '../index.css';
-import CompraFinalizada from "./CompraFinalizada";
+
 const Checkout = () => {
     const [nombre, setNombre] = useState("");
     const [email, setEmail] = useState("");

@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "./context/CartContext";
 import eliminar from './images/eliminar.svg'
@@ -10,7 +10,7 @@ const Cart = () => {
 
     if (cartTotal() === 0) {
         return (
-            <div className="container divCart">
+            <div className="container cartVacio">
                 <div className="row">
                     <div className="col-md-12">
                         <div className="alert alert-light text-center" role="alert">No se han cargado productos en el carrito</div>
