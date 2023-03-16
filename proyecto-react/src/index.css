@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+    background-image: url(./components/images/bgOutboards.jpg);
+   
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.divCarga{
+  height: 800px;
+  width: 800px;
+}
+.divCheckout{
+  margin-top: 50px;
+  margin-bottom: 300px;
+}
+.divCart{
+  margin-top: 50px;
+  margin-bottom: 300px;
 }

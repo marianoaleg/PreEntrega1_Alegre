@@ -1,25 +1,26 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
-import catalogo from "./json/productos.json";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
+import Carga from "./Carga";
 const ItemDetailContainer = ()=>{
     const [item, setItem] = useState({});
     const {id} = useParams();
+    const [carga, setCarga] = useState(true)
 
     useEffect(() => {
-        const promesa = new Promise((resolve) => {
-            setTimeout(() => {
-                resolve(catalogo.find(prod => prod.id === parseInt(id)));
-            }, 2000);
+        const db = getFirestore();
+        const document = doc(db, "motor", id);
+        getDoc(document).then(element => {
+            setItem({id:element.id, ...element.data()});
+            setCarga(false)
         });
-        promesa.then((respuesta) => {
-            setItem(respuesta);
-        })
     }, [id]);
+    
     
     return(
         <div>
-             <ItemDetail item={item} />
+            {carga ? <Carga/> : <ItemDetail item={item} />}
         </div>
     )
 }

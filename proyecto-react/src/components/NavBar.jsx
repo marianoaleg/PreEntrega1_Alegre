@@ -29,7 +29,9 @@ const NavBar = ()=>{
                             </ul>
                         </div>
                         </div>
-                        <CartWidget />
+                    <div className="col d-flex align-items-center justify-content-end">
+                    <CartWidget />
+                    </div>
                     </nav>                   
                 </div>               
             </div>           
